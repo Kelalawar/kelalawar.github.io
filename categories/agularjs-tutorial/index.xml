@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AgularJs tutorial on Kelalawar Coding</title>
+    <link>https://kelalawar.GitHub.io/categories/agularjs-tutorial/</link>
+    <description>Recent content in AgularJs tutorial on Kelalawar Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/categories/agularjs-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic css background AgularJs</title>
+      <link>https://kelalawar.GitHub.io/p/dynamic-css-background-agularjs/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/dynamic-css-background-agularjs/</guid>
+      <description>English version Indonesia version  English Dynamic css background In this example we define text box ng-modal value to the CSS background-color property value, so when the user type the color name, the text box background automatically changes to its color.
+First you need agularjs files,if you don&amp;rsquo;t have, take it here 😎
+Code
+&amp;lt;div ng-app=&amp;#34;&amp;#34; ng-init=&amp;#34;clr=&amp;#39;pink&amp;#39;&amp;#34;&amp;gt; Type color : &amp;lt;input type=&amp;#34;text&amp;#34; ng-model=&amp;#34;clr&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;box&amp;#34; style=&amp;#34;background-color:{{clr}}&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script src=&amp;#34;agularjs/angular1.4.8.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; Code for testing</description>
+    </item>
+    
+  </channel>
+</rss>

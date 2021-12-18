@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS3 tutorial on Kelalawar Coding</title>
+    <link>https://kelalawar.GitHub.io/categories/css3-tutorial/</link>
+    <description>Recent content in CSS3 tutorial on Kelalawar Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/categories/css3-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS3 color</title>
+      <link>https://kelalawar.GitHub.io/p/css3-color/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/css3-color/</guid>
+      <description>English version Indonesia version  CSS3 Colors Hampir sama dengan CSS color
+ CSS color    pelajari CSS color. 
+click here    ini mendukung nama warna, nilai warna heksadesimal dan RGB.
+nilai warna CSS3.
+ RGB Color Value HSL Color Value HSLA Color Value RGBA Color Value  RGBA Color Value Tetapi dengan nilai alfa. rgba(merah, hijau, biru, alfa). Alpha adalah angka dalam kisaran 0,0 (sepenuhnya transparan) ke 1.</description>
+    </item>
+    
+    <item>
+      <title>CSS3 Gradients</title>
+      <link>https://kelalawar.GitHub.io/p/css3-gradients/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/css3-gradients/</guid>
+      <description>CSS gradients terbuat dari transisi progresif antara dua warna atau lebih.
+Transition antara warna biasanya halus.
+Ada dua jenis gradien CSS, mereka diwakili oleh hal-hal berikut
+ Linear Gradient linear-gradient () Radial Gradient radial-gradient ()  Gradient dapat digunakan di mana saja, seperti di latar belakang.
+Untuk menunjukkan bagaimana gradien berfungsi, kami akan menggunakan latar belakang -Image properti CSS.
+Linear Gradient Fungsi Linear-Gradient() CSS menciptakan gambar yang terdiri dari transisi progresif antara dua warna atau lebih sepanjang garis lurus.</description>
+    </item>
+    
+    <item>
+      <title>CSS3 Transitions</title>
+      <link>https://kelalawar.GitHub.io/p/css3-transitions/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/css3-transitions/</guid>
+      <description>English version Indonesia version  CSS3 Transition Transisi CSS3 memungkinkan kita untuk mengontrol kecepatan animasi saat mengubah properti CSS.
+Transisi CSS3 dapat menyebabkan perubahan pada properti yang ditentukan berlangsung selama periode waktu tertentu, alih-alih hanya berlangsung segera.
+Kita dapat menunjukkan bagaimana transisi bekerja dengan : hover.
+css
+.tanpa-transisi { width: 100px; height: 100px; background: black; } .dengan-transisi { width: 100px; height: 100px; background: black; transition-property: width; transition-duration: 2s; } div:hover { width: 100%; } html</description>
+    </item>
+    
+  </channel>
+</rss>

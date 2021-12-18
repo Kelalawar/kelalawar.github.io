@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript tutorial on Kelalawar Coding</title>
+    <link>https://kelalawar.GitHub.io/tags/javascript-tutorial/</link>
+    <description>Recent content in JavaScript tutorial on Kelalawar Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/tags/javascript-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript while Loop</title>
+      <link>https://kelalawar.GitHub.io/p/javascript-while-loop/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/javascript-while-loop/</guid>
+      <description>JavaScript while Loop While loop mengeksekusi perintah selama kondisi yang diberikan benar.
+Code:
+while(kondisi) { // pernyataan atau perintah }  condition - Ekspresi dievaluasi, jika mengevaluasi benar, blok kode dijalankan. Jika Salah, Loop akan berhenti. statements Blok kode yang akan dieksekusi selama kondisi ini benar.  Ini adalah contoh sederhana.
+var i = 0; while(i &amp;lt; 20) { document.write(&amp;#39;&amp;lt;div style=&amp;#34;width: 50px; height: 50px; background: pink; margin: 5px; display: inline-flex; align-items: center;justify-content: center;&amp;#34;&amp;gt;&amp;#39;+ i +&amp;#39;&amp;lt;/div&amp;gt;&amp;#39;); i++; } while(i &amp;lt; 20) angka 20 disini berfungi untuk menghitung berapa kali script harus mengulang perintah.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Termux on Kelalawar Coding</title>
+    <link>https://kelalawar.GitHub.io/categories/termux/</link>
+    <description>Recent content in Termux on Kelalawar Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/categories/termux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cara install oh my zsh Dan oh my fish</title>
+      <link>https://kelalawar.GitHub.io/p/cara-install-oh-my-zsh-dan-oh-my-fish/</link>
+      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/cara-install-oh-my-zsh-dan-oh-my-fish/</guid>
+      <description>Sebelum melanjutkan saya akan memberitahu urutan isi dari artikel ini. Jangan lupa bergabung dengan channel telegram, klik DISINI atau @termux_shortcut
+Isi artikel  apa itu oh my zsh/fish pendapat saya pemasangan  oh my zsh oh my fish    apa itu oh my zsh fish oh my zsh adalah kerangka kerja open source dan berbasis komunitas untuk mengelola konfigurasi Zsh Anda.
+oh my fish adalah shell baris perintah yang cerdas dan ramah pengguna untuk Linux, macOS, dan keluarga lainnya.</description>
+    </item>
+    
+    <item>
+      <title>cara pasang Arch di termux</title>
+      <link>https://kelalawar.GitHub.io/p/cara-pasang-arch-di-termux/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/cara-pasang-arch-di-termux/</guid>
+      <description>Sebelum melanjutkan saya akan memberitahu urutan isi dari artikel ini.
+ Penjelasan apa itu Arch pendapat saya tentang Arch cara instalasi - cari install metode 1 - cari install metode 2 - cari install metode 3 Perintah setelah penginstalan Perintah dasar  apa itu Arch Linux Menurut Wikipedia Arch Linux (dikenal juga dengan ArchLinux atau Arch) adalah sebuah distribusi Linux untuk komputer x86_64 (64 bit) yang didesain untuk menjadi ringan dan sederhana.</description>
+    </item>
+    
+    <item>
+      <title>cara install npm di termux</title>
+      <link>https://kelalawar.GitHub.io/p/cara-install-npm-di-termux/</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/cara-install-npm-di-termux/</guid>
+      <description>Apa itu npm npm adalah manajer package default untuk lingkungan runtime JavaScript Node.js. Ini terdiri dari command line client, juga disebut npm, dan database online package publik dan pribadi berbayar, yang disebut registri npm. Registri diakses melalui klien, dan package yang tersedia dapat diakses dan dicari melalui situs web npm. Manajer package dan registri dikelola oleh npm, Inc.
+Pendapat saya npm ini sangat penting, kenapa saya sebut npm ini sangat penting?</description>
+    </item>
+    
+  </channel>
+</rss>

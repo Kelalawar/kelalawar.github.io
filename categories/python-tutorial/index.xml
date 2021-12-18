@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python tutorial on Kelalawar Coding</title>
+    <link>https://kelalawar.GitHub.io/categories/python-tutorial/</link>
+    <description>Recent content in Python tutorial on Kelalawar Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/categories/python-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara masukan script bash di python</title>
+      <link>https://kelalawar.GitHub.io/p/cara-masukan-script-bash-di-python/</link>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/cara-masukan-script-bash-di-python/</guid>
+      <description>Script bash Dan python tentunya berbeda, script bash tidak bisa begitusaja dimasukan didalam script python berlaku juga sebaliknya.
+❓: Apakah bash itu berguna didalam python ?
+❗❗: tentusaja!!
+Kalau Masih bingung aku akan memberikan contoh sederhana dengan code clear, ketika kamu membuat script bash kamu bisa langsung mengunakan code clear ini didalam script.
+Contoh:
+#! /bin/bash clear # &amp;lt;== ini contoh nya echo &amp;quot;Hello world!&amp;quot; echo &amp;quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Cara buat random strings python</title>
+      <link>https://kelalawar.GitHub.io/p/cara-buat-random-strings-python/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/cara-buat-random-strings-python/</guid>
+      <description>Sekarang kita akan belajar membuat random strings dengan python,.
+Pertama buatlah file ber extensi .py contoh aku akan membuat dengan nama ran.py
+Contoh gambar:  Screenshot_2021_1029_211211 
+dan pastikan kamu sudah menginstal python1/2/3 kalau belum bisa ikuti cara berikut.
+apt update &amp;amp;&amp;amp; apt upgrade pkg i python python2 python3 Contoh gambar:
+ Screenshot_2021_1029_201843   Screenshot_2021_1029_201928 
+setelah membuat file nya, lanjutkan untuk membuka file itu di text editor, saya mengunakan text editor micro.</description>
+    </item>
+    
+  </channel>
+</rss>

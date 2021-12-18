@@ -1,0 +1,45 @@
+  .con a i {
+    font-size: 13px;
+   }
+  .con__main {
+    background-color: deeppink;
+    height: 1.3em;
+    padding-left: 0.3em;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+
+  }
+
+  .con__main i {
+    width: 18px;
+  }
+  .ling__con {
+    height: 100%;
+    margin-left: 0.3em;
+    background-color: #BDB4BD;
+    display: inline-flex;
+    align-items: center;
+    padding: 0em 0.3em;
+    border-start-end-radius: 5px;
+    border-end-end-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .ling__kirim{
+    font-size: 13px;
+  }
+  .xxx a {
+    color: deeppink;
+    text-decoration: none;
+  }
+  .map{
+    text-align: center;
+    color: deeppink;
+  }
+  .map span{
+    font-size: 15px;
+    font-style: italic;
+  }

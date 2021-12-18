@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BASH tutorial on Kelalawar Coding</title>
+    <link>https://kelalawar.GitHub.io/categories/bash-tutorial/</link>
+    <description>Recent content in BASH tutorial on Kelalawar Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/categories/bash-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara buat loop script bash</title>
+      <link>https://kelalawar.GitHub.io/p/cara-buat-loop-script-bash/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/cara-buat-loop-script-bash/</guid>
+      <description>Halo teman teman kali ini aku akan mengajarkan cara membuat simpel looping mengunakan BASH.
+Pertama buatlah file apasaja dengan extension .sh di terminal command dengan touch, contoh disini aku membuat dengan nama &amp;ldquo;loop.sh&amp;rdquo; touch loop.sh lalu agar bisa di execut ubah ijin file loop.sh dengan chmod +x loop.sh .
+Contoh gambar:  Screenshot_2021_1029_161017 
+Buka lah dan edit file loop.sh, kamu bisa mengunakan nano vim neovim micro subl dan apapun text editor yang kamu punya, saya mengunakan micro karena menurut saya itu sudah cukup dan ringan, edit dengan cara micro loop.</description>
+    </item>
+    
+  </channel>
+</rss>

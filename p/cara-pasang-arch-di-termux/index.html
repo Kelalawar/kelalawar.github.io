@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8641111304537283"
+     crossorigin="anonymous"></script><meta name='description' content='Sebelum melanjutkan saya akan memberitahu urutan isi dari artikel ini.
+ Penjelasan apa itu Arch pendapat saya tentang Arch cara instalasi - cari install metode 1 - cari install metode 2 - cari install metode 3 Perintah setelah penginstalan Perintah dasar  apa itu Arch Linux Menurut Wikipedia Arch Linux (dikenal juga dengan ArchLinux atau Arch) adalah sebuah distribusi Linux untuk komputer x86_64 (64 bit) yang didesain untuk menjadi ringan dan sederhana.'><title>cara pasang Arch di termux</title>
+
+<link rel='canonical' href='https://kelalawar.GitHub.io/p/cara-pasang-arch-di-termux/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8641111304537283"
+     crossorigin="anonymous"></script>
+     
+<link rel="canonical" href="https://kelalawar.github.io/" /><meta name="google-site-verification" content="g7tii8x8ht_zDOf6XJsvL-oB8wat-HO3wD0V-IfmU6o" /><meta property='og:title' content='cara pasang Arch di termux'>
+<meta property='og:description' content='Sebelum melanjutkan saya akan memberitahu urutan isi dari artikel ini.
+ Penjelasan apa itu Arch pendapat saya tentang Arch cara instalasi - cari install metode 1 - cari install metode 2 - cari install metode 3 Perintah setelah penginstalan Perintah dasar  apa itu Arch Linux Menurut Wikipedia Arch Linux (dikenal juga dengan ArchLinux atau Arch) adalah sebuah distribusi Linux untuk komputer x86_64 (64 bit) yang didesain untuk menjadi ringan dan sederhana.'>
+<meta property='og:url' content='https://kelalawar.GitHub.io/p/cara-pasang-arch-di-termux/'>
+<meta property='og:site_name' content='Kelalawar Coding'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='tutorial' /><meta property='article:published_time' content='2021-10-09T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-10-09T00:00:00&#43;00:00'/><meta property='og:image' content='https://kelalawar.GitHub.io/p/cara-pasang-arch-di-termux/20211009_111549.jpg' />
+<meta name="twitter:title" content="cara pasang Arch di termux">
+<meta name="twitter:description" content="Sebelum melanjutkan saya akan memberitahu urutan isi dari artikel ini.
+ Penjelasan apa itu Arch pendapat saya tentang Arch cara instalasi - cari install metode 1 - cari install metode 2 - cari install metode 3 Perintah setelah penginstalan Perintah dasar  apa itu Arch Linux Menurut Wikipedia Arch Linux (dikenal juga dengan ArchLinux atau Arch) adalah sebuah distribusi Linux untuk komputer x86_64 (64 bit) yang didesain untuk menjadi ringan dan sederhana."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://kelalawar.GitHub.io/p/cara-pasang-arch-di-termux/20211009_111549.jpg' />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page 
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        on-phone--column extended
+    
+">
+    
+        <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu7178a6a1b49ae1f71aefcc3f7787361f_8735_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🐾</span>
+                
+            </figure>
+            
+        
+        
+        <h1 class="site-name"><a href="/">Kelalawar Coding</a></h1>
+        <h2 class="site-description">Mari kita ngoding!</h2><ol class="social-menu">
+                
+                    <li>
+                        <a 
+                            href='https://github.com/maidey'
+                            target="_blank"
+                            title="GitHub"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='https://twitter.com'
+                            target="_blank"
+                            title="Twitter"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+            </ol></header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' target="_blank">
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/disclaimer/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+                
+                <span>Disclaimer</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/kontak/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+  <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+  <line x1="3" y1="6" x2="3" y2="19" />
+  <line x1="12" y1="6" x2="12" y2="19" />
+  <line x1="21" y1="6" x2="21" y2="19" />
+</svg>
+                
+                <span>kontak</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/privacy-policy/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-lock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+  <circle cx="12" cy="11" r="1" />
+  <line x1="12" y1="12" x2="12" y2="14.5" />
+</svg>
+                
+                <span>Privacy policy</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Dark Mode</span>
+            </li>
+        
+    </ol>
+</aside>
+
+    
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/cara-pasang-arch-di-termux/">
+                <img src="/p/cara-pasang-arch-di-termux/20211009_111549.jpg"
+                        
+                        width="3264" 
+                        height="1836" 
+                        loading="lazy"
+                        alt="Featured image of post cara pasang Arch di termux" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/termux/" >
+                Termux
+            </a>
+        
+            <a href="/categories/arch/" >
+                Arch
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/p/cara-pasang-arch-di-termux/">cara pasang Arch di termux</a>
+    </h2>
+
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 09, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    2 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    <p>Sebelum melanjutkan saya akan memberitahu urutan isi dari artikel ini.</p>
+<ol>
+<li>Penjelasan apa itu Arch</li>
+<li>pendapat saya tentang Arch</li>
+<li>cara instalasi
+- cari install metode 1
+- cari install metode 2
+- cari install metode 3</li>
+<li>Perintah setelah penginstalan</li>
+<li>Perintah dasar</li>
+</ol>
+<h2 id="apa-itu-arch-linux">apa itu Arch Linux</h2>
+<p>Menurut <strong>Wikipedia</strong> Arch Linux (dikenal juga dengan ArchLinux atau Arch) adalah sebuah distribusi Linux untuk komputer x86_64 (64 bit) yang didesain untuk menjadi ringan dan sederhana.</p>
+<p>Pendekatan desain pengembang distro ini berfokus pada kesederhanaan, kebenaran program dan minimalisme. &ldquo;Kesederhanaan&rdquo; didefinisikan sebagai &ldquo;tak perlu tambahan, modifikasi, atau komplikasi&rdquo; sesuai sudut pandang pengembangnya, bukan sudut pandang pengguna.</p>
+<p>Arch Linux adalah sebuah distribusi Linux berbasis biner, yang artinya, paket-paket aplikasi didistribusikan dalam bentuk telah terkompilasi. Berbeda dengan Gentoo yang mendistribusikan paket-paketnya dalam bentuk kode sumber.</p>
+<h2 id="pendapat-saya-tentang-arch">pendapat saya tentang Arch</h2>
+<p>Menurut saya Arch Linux sangat bagus, apa lagi Arch Linux mempunyai banyak sekali tool, dan pemasangan nya pun sangat mudah ,  ukuran file yang akan di download sebesar <strong>590 MB</strong> dan setelah proses instalasi Arch ukuran data termux akan menjadi <strong>1,10 GB</strong> .</p>
+<h2 id="cara-install">cara install</h2>
+<blockquote>
+<p>ada 3 cara Anda dapat memilih cara mana yang Anda suka.</p>
+</blockquote>
+<p>sebelumnya anda harus menyiapkan storage :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">
+<p>termux-setup-storage</p>
+<p></code></pre></div><h3 id="cara-pertama">cara pertama</h3></p>
+<p>Metode ini dapat dijalankan dengan mengetuk <strong><a class="link" href="https://sdrausty.github.io/TermuxArch/setupTermuxArch.sh"  target="_blank" rel="noopener"
+    >tautan ini</a></strong> yang harus diunduh setupTermuxArch.sh ke <code>~/storage/downloads/</code>direktori Anda di ponsel cerdas dan tablet Anda. Jika mengetuk pendek tautan ini tidak mengunduh <a class="link" href="https://sdrausty.github.io/TermuxArch/setupTermuxArch.sh"  target="_blank" rel="noopener"
+    >setupTermuxArch.sh</a> dari browser web Anda, coba ketuk lama dan pilih unduh file dari menu popup. Instal Arch Linux di Termux PROot hanya dengan menjalankan baris kode berikutnya di Termux:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">
+<p>bash ~/storage/downloads/setupTermuxArch.sh</p>
+<p></code></pre></div><h3 id="cara-kedua">cara kedua</h3></p>
+<p>Jalankan baris perintah berikut di bash untuk menginstal Arch Linux di Termux pada perangkat Anda. Jalankan setiap baris perintah berikut secara terpisah. Menjalankan semuanya sekaligus dapat menghasilkan kesalahan; Petunjuk, salin dan tempel berikut ini ke jendela Termux:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">
+<span class="c1">#install git</span>
+pkg install git
+<p><span class="c1">#download script</span>
+<span class="nb">cd</span> <span class="o">&amp;&amp;</span> git clone <a class="link" href="https://github.com/sdrausty/TermuxArch"  target="_blank" rel="noopener"
+    >https://github.com/sdrausty/TermuxArch</a></p>
+<p><span class="c1">#install script</span>
+bash TermuxArch/setupTermuxArch.sh</p>
+<p></code></pre></div><h3 id="cara-ketiga">cara ketiga</h3></p>
+<p>Salin dan tempel baris perintah berikut ke shell perintah bash Termux Anda:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">
+<span class="c1">#install wget</span>
+pkg install wget
+<p><span class="c1">#download script</span>
+wget <a class="link" href="https://sdrausty.github.io/TermuxArch/setupTermuxArch.sh"  target="_blank" rel="noopener"
+    >https://sdrausty.github.io/TermuxArch/setupTermuxArch.sh</a></p>
+<p><span class="c1">#install script</span>
+bash setupTermuxArch.sh</p>
+<p></code></pre></div><h3 id="perintah-setelah-penginstalan">perintah setelah penginstalan</h3></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">
+<p>pacman -S neofetch
+pacman -S fish</p>
+<p>Nano .bashrc</p>
+<p></code></pre></div><p>Tempel kan script ini di line paling bawah.</p></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">
+<p><span class="k">if</span> <span class="o">[</span> -f /usr/bin/neofetch <span class="o">]</span>
+<span class="k">then</span>
+neofetch
+fish
+<span class="k">fi</span></p>
+<p></code></pre></div><p><figure class="gallery-image" style=" flex-grow: 86; flex-basis: 206px"><a href="Screenshot_2021_1009_110234.png" data-size="719x834">
+<img src="Screenshot_2021_1009_110234.png" width="719" height="834" srcset="Screenshot_2021_1009_110234.png" loading="lazy" alt="seperti ini"></a></p>
+<figcaption>seperti ini</figcaption>
+<p><code>ctrl+x</code> &raquo; <code>y</code> &raquo; <code>enter</code></p>
+<p>Keluar dan masuk lagi ke termux</p>
+<h3 id="perintah-dasar">perintah dasar</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">
+<p>pacman -Ss &lt;nama tool&gt; <span class="c1">#ini untuk mencari tool</span>
+pacman -S &lt;nama tool&gt; <span class="c1">#ini untuk meng-install tool</span>
+pacman -Syu <span class="c1">#ini untuk  meng-upgrade</span></p>
+<p></code></pre></div></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/tutorial/">tutorial</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js"integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8"crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js"integrity="sha384-vZTG03m&#43;2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ]
+        });})
+</script>
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="/p/cara-install-oh-my-zsh-dan-oh-my-fish/">
+        
+        
+            <div class="article-image">
+                <img src="/p/cara-install-oh-my-zsh-dan-oh-my-fish/20211011_002237.7646cc4299bbfaca99c52b1b58c8af51_hud9e9e7d64f2e08e3c08c37813584cc49_763989_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post cara install oh my zsh Dan oh my fish"
+                        
+                        data-hash="md5-dkbMQpm7&#43;sqZxSsbWMivUQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">cara install oh my zsh Dan oh my fish</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/p/cara-install-npm-di-termux/">
+        
+        
+            <div class="article-image">
+                <img src="/p/cara-install-npm-di-termux/20211007_205809.cf857b782b4b1b092350e7e00bcca794_hu0f81677ca53754b440b5703bcb9bd355_111646_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post cara install npm di termux"
+                        
+                        data-hash="md5-z4V7eCtLGwkjUOfgC8ynlA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">cara install npm di termux</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "Kelalawar-Coding" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2021 Kelalawar Coding
+    </section>
+   
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

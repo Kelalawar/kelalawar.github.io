@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jQuery tutorial on Kelalawar Coding</title>
+    <link>https://kelalawar.GitHub.io/categories/jquery-tutorial/</link>
+    <description>Recent content in jQuery tutorial on Kelalawar Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/categories/jquery-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fade jQuery</title>
+      <link>https://kelalawar.GitHub.io/p/fade-jquery/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/fade-jquery/</guid>
+      <description>Indonesia version English version  INDONESIA FadeOut function Metode fadeout () secara bertahap mengubah opacity, untuk elemen yang dipilih, dari terlihat hingga tersembunyi (efek memudar).
+Elemen tersembunyi tidak akan ditampilkan sama sekali.
+Durasi waktu dapat diberikan dalam milidetik untuk menentukan berapa lama animasi akan berjalan.
+&amp;lt;input type=&amp;#34;button&amp;#34; id=&amp;#34;btni&amp;#34; value=&amp;#34;fadeOut&amp;#34;&amp;gt; &amp;lt;div id=&amp;#34;d1i&amp;#34; style=&amp;#34;background:red;width:100px;height:100px&amp;#34;&amp;gt;This is the Div&amp;lt;/div&amp;gt; &amp;lt;script src=&amp;quot;js/jquery-2.2.0.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script&amp;gt; $(document).ready(function() { $(&amp;quot;#btni&amp;quot;).click(function() { $(&amp;quot;#d1i&amp;quot;).fadeOut(2000); //5seconds  }); }); &amp;lt;/script&amp;gt;
+This is the Div   $(document).</description>
+    </item>
+    
+    <item>
+      <title>Hide And Show jQuery</title>
+      <link>https://kelalawar.GitHub.io/p/hide-and-show-jquery/</link>
+      <pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/hide-and-show-jquery/</guid>
+      <description>English version Indonesia version  English hide and show jQuery The hide() function is used to hide any element using its Id or classname. In this example we are hiding the div element.
+The show() function is used to show any hidden element using its Id or classname. In this example, we are showing the div element which was dynamically hidden in the design itself.
+example Hide
+&amp;lt;input type=&amp;#34;button&amp;#34; id=&amp;#34;hdbtn&amp;#34; value=&amp;#34;Hide&amp;#34;&amp;gt; &amp;lt;div id=&amp;#34;d1&amp;#34;&amp;gt;This is the Div&amp;lt;/div&amp;gt; &amp;lt;script src=&amp;quot;js/jquery-2.</description>
+    </item>
+    
+  </channel>
+</rss>

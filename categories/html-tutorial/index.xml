@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML tutorial on Kelalawar Coding</title>
+    <link>https://kelalawar.GitHub.io/categories/html-tutorial/</link>
+    <description>Recent content in HTML tutorial on Kelalawar Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/categories/html-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Horizontal line HTML</title>
+      <link>https://kelalawar.GitHub.io/p/horizontal-line-html/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/horizontal-line-html/</guid>
+      <description>Indonesia version English version  INDONESIA horizontal line  Penggunaan &amp;lt;hr&amp;gt; tag
+Digunakan untuk membuat garis horizontal. Ini juga disebut aturan horizontal dalam HTML.
+Tag ini mendefinisikan break tematik di halaman HTML (misalnya. a shift of topic).
+Digunakan untuk memisahkan konten (atau mendefinisikan perubahan) di halaman HTML.
+Tag ini tidak memiliki tag akhir, tetapi kita dapat menggunakannya seperti &amp;lt;hr /&amp;gt; (opsional).
+ &amp;lt;hr&amp;gt; &amp;lt;!-- Baris pertama --&amp;gt; &amp;lt;hr&amp;gt; &amp;lt;!-- baris kedua --&amp;gt; &amp;lt;hr&amp;gt; &amp;lt;!</description>
+    </item>
+    
+  </channel>
+</rss>

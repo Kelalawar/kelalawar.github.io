@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS tutorial on Kelalawar Coding</title>
+    <link>https://kelalawar.GitHub.io/categories/css-tutorial/</link>
+    <description>Recent content in CSS tutorial on Kelalawar Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/categories/css-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS color</title>
+      <link>https://kelalawar.GitHub.io/p/css-color/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/css-color/</guid>
+      <description>English version Indonesia version  CSS Colors CSS color(warna) umumnya ditentukan dengan berikut ini:
+ Color Name Hexadecimal Color Value RGB Color Value  Color Name Ini mendefinisikan warna yang valid dengan nama warnanya misalnya white (putih), black (hitam).
+Contoh:
+.css-warna { color: pink; }  .css-warna { Background: pink; Width: 100%; Height: 200px; }   Hexadecimal Color Value Hexadecimal juga dikenal sebagai nilai warna hex. Ini mendefinisikan warna yang valid dengan hash diikuti oleh huruf dan / atau angka misalnya.</description>
+    </item>
+    
+    <item>
+      <title>CSS Padding</title>
+      <link>https://kelalawar.GitHub.io/p/css-padding/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/css-padding/</guid>
+      <description>English version Indonesia version  CSS Padding CSS Padding menciptakan ruang didalam suatu elemen.
+ padding : mengatur area padding disetiap sisi.  /* Contoh */ padding: 50px;  padding-top : mengatur area padding dibagian atas.  /* Contoh */ padding-top: 50px;  padding-right : mengatur area padding dibagian kanan.  /* Contoh */ padding-right: 50px;  padding-bottom : mengatur area padding dibagian bawah.  /* Contoh */ padding-bottom: 50px;  padding-left : mengatur area padding dibagian kiri.</description>
+    </item>
+    
+    <item>
+      <title>CSS Overflow</title>
+      <link>https://kelalawar.GitHub.io/p/css-overflow/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/css-overflow/</guid>
+      <description>CSS Layout - Overflow Overflow adalah Konten biasanya lebih besar dari wadahnya.
+Properti overflow-x menentukan apa yang harus dilakukan ketika konten melampaui tepi kiri dan kanan elemen.
+Properti overflow-y menentukan apa yang harus dilakukan ketika konten melampaui batas atas dan ujung bawah.
+Nilai valid:
+visible : Konten tidak terpotong, memimpikan konten diberikan di luar tepi kotak.
+ .over { overflow-x: visible; width: 100px; height: 50px; border: 2px solid black; }   Loremipsumdolorsitmetonsepisgjed</description>
+    </item>
+    
+    <item>
+      <title>CSS Margin</title>
+      <link>https://kelalawar.GitHub.io/p/css-margin/</link>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/p/css-margin/</guid>
+      <description>English version Indonesia version  CSS Margins Margin CSS menciptakan ruang di sekitar atau di luar suatu elemen.
+Margin CSS - Sisi individu Properti berikut mengatur panjang margin di setiap sisi.
+margin-top: Mengatur area margin di atas.
+margin-right: mengatur area margin di sisi kanan.
+margin-bottom : mengatur area margin di bagian bawah.
+margin-left : Setel area margin di sisi kiri.
+Sepertiini lah contoh pengunaannya.
+Contoh:
+css
+.margin-div { margin-top: 30px; margin-left: 90px; background: pink; } html</description>
+    </item>
+    
+  </channel>
+</rss>
