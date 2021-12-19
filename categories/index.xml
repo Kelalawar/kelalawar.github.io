@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Kelalawar Coding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vim</title>
+      <link>https://kelalawar.GitHub.io/categories/vim/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/categories/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vs code</title>
+      <link>https://kelalawar.GitHub.io/categories/vs-code/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kelalawar.GitHub.io/categories/vs-code/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>CSS tutorial</title>
       <link>https://kelalawar.GitHub.io/categories/css-tutorial/</link>

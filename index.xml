@@ -6,7 +6,7 @@
         <description>Recent content on Kelalawar Coding</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kelalawar.GitHub.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>maaf untuk article yang error</title>
         <link>https://kelalawar.GitHub.io/p/maaf-untuk-article-yang-error/</link>
         <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
@@ -33,6 +33,93 @@
         &lt;/div&gt;
     &lt;/a&gt;
 &lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>VsCode VS Vim</title>
+        <link>https://kelalawar.GitHub.io/p/vscode-vs-vim/</link>
+        <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://kelalawar.GitHub.io/p/vscode-vs-vim/</guid>
+        <description>&lt;img src="https://kelalawar.GitHub.io/p/vscode-vs-vim/20211219_113743.jpg" alt="Featured image of post VsCode VS Vim" /&gt;&lt;ul&gt;
+&lt;li&gt;&lt;del&gt;&lt;a class=&#34;link&#34; href=&#34;#&#34; &gt;English version&lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#indonesia&#34; &gt;Indonesia version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;sebelum melanjutkan ke artikel saya mau menjelaskan bahwa artikel ini dibuat menurut pendapat periibadi bukan melalui riset atau voting!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;lebih-bagus-vscode-atau-vim&#34;&gt;lebih bagus vscode atau vim&lt;/h1&gt;
+&lt;p&gt;Saya sangat bimbang untuk bisa menyimpulkan mana yang lebih bagus antara vscode ddengan vum karena dua-dua nya menurut saya adalah text editor tebaik, tapi berhubung judul artikel ini adalah menbabndingkan antara vscode dan vim jadi akan saya bandingkan menurut pengalaman saya mengunakan dua(2) text editor tersebut.&lt;/p&gt;
+&lt;h2 id=&#34;vscode&#34;&gt;vscode&lt;/h2&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 121; 
+			flex-basis: 291px&#34;
+	&gt;
+	&lt;a href=&#34;https://kelalawar.GitHub.io/p/vscode-vs-vim/home-screenshot-linux.png&#34; data-size=&#34;631x520&#34;&gt;
+		&lt;img src=&#34;https://kelalawar.GitHub.io/p/vscode-vs-vim/home-screenshot-linux.png&#34;
+			width=&#34;631&#34;
+			height=&#34;520&#34;
+			srcset=&#34;https://kelalawar.GitHub.io/p/vscode-vs-vim/home-screenshot-linux_huf4c545a3e43b4d077a2933e5f947b66f_36451_480x0_resize_box_3.png 480w, https://kelalawar.GitHub.io/p/vscode-vs-vim/home-screenshot-linux_huf4c545a3e43b4d077a2933e5f947b66f_36451_1024x0_resize_box_3.png 1024w&#34;
+			loading=&#34;lazy&#34;
+			&gt;
+	&lt;/a&gt;
+	
+&lt;/figure&gt;
+Visual Studio Code adalah editor source-code yang dibuat oleh Microsoft untuk Windows, Linux, dan macOS.  Fitur termasuk dukungan untuk debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, dan embedded Git.&lt;/p&gt;
+&lt;h3 id=&#34;kelebihan-vscode&#34;&gt;kelebihan vscode&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;mamiliki tampilan yang bagus dan moderen&lt;/li&gt;
+&lt;li&gt;bisa drag and drop serta klak klik klak klik mouse (maaf bahsa yang aneh ;D)&lt;/li&gt;
+&lt;li&gt;web server , decompiler dll  sudah ada di vscode , bisa dibilang (all in one)&lt;/li&gt;
+&lt;li&gt;geratis kalian hanya tinggal kunjungi  official website &lt;a class=&#34;link&#34; href=&#34;&#34; &gt;vscode&lt;/a&gt; dan langsung kallian pasang.&lt;/li&gt;
+&lt;li&gt;banyaksekali plugin yang bosa langsung di instal geratis.&lt;/li&gt;
+&lt;li&gt;memiliki banyak theme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kekeurangan-vscode&#34;&gt;kekeurangan vscode&lt;/h3&gt;
+&lt;p&gt;sekalilagi ini menurut pengalaman saya.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LAG (f) &amp;ldquo;Saya tau ini bukan sesalahan softwhere , ini sepenuhnya kesalahan perngkat saya yang sangat sampah.  &amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vim&#34;&gt;vim&lt;/h2&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 177; 
+			flex-basis: 426px&#34;
+	&gt;
+	&lt;a href=&#34;https://kelalawar.GitHub.io/p/vscode-vs-vim/1639888408861.jpg&#34; data-size=&#34;720x405&#34;&gt;
+		&lt;img src=&#34;https://kelalawar.GitHub.io/p/vscode-vs-vim/1639888408861.jpg&#34;
+			width=&#34;720&#34;
+			height=&#34;405&#34;
+			srcset=&#34;https://kelalawar.GitHub.io/p/vscode-vs-vim/1639888408861_hub17d9a26cd68298919ba27efe6dfc246_73477_480x0_resize_q75_box.jpg 480w, https://kelalawar.GitHub.io/p/vscode-vs-vim/1639888408861_hub17d9a26cd68298919ba27efe6dfc246_73477_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			&gt;
+	&lt;/a&gt;
+	
+&lt;/figure&gt;
+Vim; adalah perangkat lunak penyunting teks source-code untuk sistem operasi Unix. Penyunting ini adalah tiruan yang ditingkatkan dari penyunting teks vi buatan Bill Joy. Penulis Vim, Bram Moolenaar, membuat Vim berdasarkan port editor Stevie untuk Amiga. Vim mulai merilis versi ke publik pada tahun 1991.&lt;/p&gt;
+&lt;h3 id=&#34;kelebihan-vim&#34;&gt;kelebihan vim&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ringan&lt;/li&gt;
+&lt;li&gt;banyaksekali plugin yang bisa dipasang&lt;/li&gt;
+&lt;li&gt;shortcut yang bisa kita atur sendiri&lt;/li&gt;
+&lt;li&gt;memiliki banyak theme&lt;/li&gt;
+&lt;li&gt;kalau memakai vim ditempat umum terlihat ganteng&lt;/li&gt;
+&lt;li&gt;geratis kalian hanya tinggal &lt;code&gt;sudo apt-get vim&lt;/code&gt; maka akan langsung terpasang dii perangkat anda.&lt;/li&gt;
+&lt;li&gt;bisadipakai full keyboard only tanpa harus klak klik klak klik mouse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kekeurangan-vscod&#34;&gt;kekeurangan vscod&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;kalau belum terbiasa akan sulit sekali&lt;/li&gt;
+&lt;li&gt;webserver dan decompiler terpisah&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kesimpulan-vscode-vs-vim&#34;&gt;kesimpulan vscode vs vim&lt;/h3&gt;
+&lt;p&gt;menurut saya vim sangat powerfull dikarenakn selain ringan , hampir full bisa di customisasi dan vim juga tersedia di berbagai perangkat,
+pengunaannya pun lebih mudah kalau sudah terbiasa,  bukan berarti vscode jelek ,vscode  juga sangat bagus apalagi untuk orang-orang yang meyukai sesuatu yang simple,&lt;/p&gt;
 </description>
         </item>
         <item>
